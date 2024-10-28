@@ -21,8 +21,8 @@ collection = db["borrower"]
 
 # Set environment variables (or load from .env)
 os.environ["DOCUMENTINTELLIGENCE_ENDPOINT"] = "https://hgsgeneralpurposeidp.cognitiveservices.azure.com/"
-os.environ["DOCUMENTINTELLIGENCE_API_KEY"] = "97cb5410020448ea80fc685e4841d766"
-os.environ["BLOB_CONNECTION_STRING"] = "DefaultEndpointsProtocol=https;AccountName=costumerdocuments;AccountKey=1yqcWOTGOqmCRYlp/msirGkI+LfaFLQHdBi1Vr1vtvsUxUWYDAXkv/uVONOppB1+GMqsaNgUlhbR+AStN38s3A==;EndpointSuffix=core.windows.net"
+os.environ["DOCUMENTINTELLIGENCE_API_KEY"] = "DOCUMENTINTELLIGENCE_API_KEY"
+os.environ["BLOB_CONNECTION_STRING"] = "BLOB_CONNECTION_STRING"
 
 # File upload folder
 UPLOAD_FOLDER = 'uploads'
