@@ -1,0 +1,367 @@
+{
+    "docType": "idDocument.driverLicense",
+    "boundingRegions": [
+        {
+            "pageNumber": 1,
+            "polygon": [
+                0,
+                0,
+                400,
+                0,
+                400,
+                244,
+                0,
+                244
+            ]
+        }
+    ],
+    "fields": {
+        "Address": {
+            "type": "address",
+            "content": "123 MAIN STREET NORTHWEST\nMINNEAPOLIS, MN 12345-0000",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        136,
+                        88,
+                        328,
+                        88,
+                        328,
+                        116,
+                        136,
+                        116
+                    ]
+                }
+            ],
+            "confidence": 0.974,
+            "spans": [
+                {
+                    "offset": 50,
+                    "length": 52
+                }
+            ],
+            "valueAddress": {
+                "houseNumber": "123",
+                "road": "MAIN STREET NORTHWEST",
+                "postalCode": "12345-0000",
+                "city": "MINNEAPOLIS",
+                "state": "MN",
+                "streetAddress": "123 MAIN STREET NORTHWEST"
+            }
+        },
+        "CountryRegion": {
+            "type": "countryRegion",
+            "valueCountryRegion": "USA",
+            "confidence": 0.995
+        },
+        "DateOfBirth": {
+            "type": "date",
+            "valueDate": "1958-05-22",
+            "content": "05-22-1958",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        200,
+                        120,
+                        268,
+                        118,
+                        268,
+                        132,
+                        200,
+                        132
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 124,
+                    "length": 10
+                }
+            ]
+        },
+        "DateOfExpiration": {
+            "type": "date",
+            "valueDate": "2016-05-22",
+            "content": "05-22-2016",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        302,
+                        186,
+                        369,
+                        186,
+                        368,
+                        201,
+                        302,
+                        201
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 212,
+                    "length": 10
+                }
+            ]
+        },
+        "DateOfIssue": {
+            "type": "date",
+            "valueDate": "2012-11-01",
+            "content": "11-2012",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        178,
+                        187,
+                        225,
+                        187,
+                        225,
+                        200,
+                        178,
+                        200
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 196,
+                    "length": 7
+                }
+            ]
+        },
+        "DocumentNumber": {
+            "type": "string",
+            "content": "D-616-603-235-374",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        12,
+                        221,
+                        141,
+                        221,
+                        141,
+                        235,
+                        12,
+                        236
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 236,
+                    "length": 17
+                }
+            ]
+        },
+        "EyeColor": {
+            "type": "string",
+            "valueString": "BLU",
+            "content": "BLU",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        180,
+                        146,
+                        201,
+                        146,
+                        201,
+                        157,
+                        180,
+                        157
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 152,
+                    "length": 3
+                }
+            ]
+        },
+        "FirstName": {
+            "type": "string",
+            "valueString": "GAYLE ELIZABETH",
+            "content": "GAYLE ELIZABETH",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        137,
+                        74,
+                        250,
+                        75,
+                        250,
+                        90,
+                        137,
+                        88
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 27,
+                    "length": 15
+                }
+            ]
+        },
+        "Height": {
+            "type": "string",
+            "valueString": "5-08",
+            "content": "5-08",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        141,
+                        173,
+                        163,
+                        173,
+                        162,
+                        184,
+                        140,
+                        183
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 180,
+                    "length": 4
+                }
+            ]
+        },
+        "LastName": {
+            "type": "string",
+            "valueString": "SAMPLE",
+            "content": "SAMPLE",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        255,
+                        75,
+                        306,
+                        75,
+                        306,
+                        89,
+                        255,
+                        89
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 43,
+                    "length": 6
+                }
+            ]
+        },
+        "Region": {
+            "type": "string",
+            "valueString": "Minnesota",
+            "confidence": 0.99
+        },
+        "Sex": {
+            "type": "string",
+            "valueString": "F",
+            "content": "F",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        142,
+                        147,
+                        147,
+                        147,
+                        146,
+                        157,
+                        141,
+                        157
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 150,
+                    "length": 1
+                }
+            ]
+        },
+        "VehicleClassifications": {
+            "type": "string",
+            "valueString": "D",
+            "content": "D",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        236,
+                        147,
+                        241,
+                        147,
+                        241,
+                        158,
+                        235,
+                        157
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 156,
+                    "length": 1
+                }
+            ]
+        },
+        "Weight": {
+            "type": "string",
+            "valueString": "150",
+            "content": "150",
+            "boundingRegions": [
+                {
+                    "pageNumber": 1,
+                    "polygon": [
+                        184,
+                        173,
+                        202,
+                        173,
+                        202,
+                        183,
+                        184,
+                        183
+                    ]
+                }
+            ],
+            "confidence": 0.99,
+            "spans": [
+                {
+                    "offset": 185,
+                    "length": 3
+                }
+            ]
+        }
+    },
+    "confidence": 0.995,
+    "spans": [
+        {
+            "offset": 0,
+            "length": 253
+        }
+    ]
+}
