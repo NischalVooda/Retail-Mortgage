@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload ID Documents</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload ID Documents</h1>
+
+        <!-- Drop Zone for Drag and Drop -->
+        <div id="drop-zone">
+            <p>Drag & drop files here, or click to select files</p>
+            <form id="uploadForm" method="POST" enctype="multipart/form-data" action="{{ url_for('upload_file') }}">
+                <!-- File input hidden, triggered by drop zone click -->
+                <input type="file" id="fileInput" name="files" multiple hidden>
+            </form>
+        </div>
+
+        <!-- Submit button outside the form -->
+        <input type="submit" value="Submit" class="submit-button" onclick="submitForm()">
+
+        <!-- Notification Area -->
+        <div id="notification" class="notification"></div>
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+        {% endwith %}
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+    <script>
+        // Function to submit the form manually when button is clicked
+        function submitForm() {
+            document.getElementById('uploadForm').submit();
+        }
+    </script>
+</body>
+</html>
