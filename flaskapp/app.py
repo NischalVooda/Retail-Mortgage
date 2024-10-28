@@ -15,7 +15,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
 # MongoDB connection
-client = pymongo.MongoClient("mongodb+srv://nischal:nischal@cluster0.sab29.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = pymongo.MongoClient("mongodb+srv://nischal:<pass>@cluster0.sab29.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #give your username and pass
 db = client["idDocument"]
 collection = db["borrower"]
 
